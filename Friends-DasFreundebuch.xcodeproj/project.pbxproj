@@ -14,6 +14,7 @@
 		717685D129BCB4430077C15D /* Friends_DasFreundebuchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717685D029BCB4430077C15D /* Friends_DasFreundebuchTests.swift */; };
 		717685DB29BCB4430077C15D /* Friends_DasFreundebuchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717685DA29BCB4430077C15D /* Friends_DasFreundebuchUITests.swift */; };
 		717685DD29BCB4430077C15D /* Friends_DasFreundebuchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717685DC29BCB4430077C15D /* Friends_DasFreundebuchUITestsLaunchTests.swift */; };
+		717685EB29BCCA4A0077C15D /* FriendsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717685EA29BCCA4A0077C15D /* FriendsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		717685D629BCB4430077C15D /* Friends-DasFreundebuchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Friends-DasFreundebuchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		717685DA29BCB4430077C15D /* Friends_DasFreundebuchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends_DasFreundebuchUITests.swift; sourceTree = "<group>"; };
 		717685DC29BCB4430077C15D /* Friends_DasFreundebuchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends_DasFreundebuchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		717685EA29BCCA4A0077C15D /* FriendsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 		717685E929BCC4390077C15D /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				717685EA29BCCA4A0077C15D /* FriendsListView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			files = (
 				717685C229BCB4410077C15D /* ContentView.swift in Sources */,
 				717685C029BCB4410077C15D /* Friends_DasFreundebuchApp.swift in Sources */,
+				717685EB29BCCA4A0077C15D /* FriendsListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
